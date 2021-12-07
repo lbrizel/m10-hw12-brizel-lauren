@@ -14,5 +14,11 @@ class Car {
         var timerId = setTimeout(function(){
         console.log('Maintenance Complete')   
         }, 3000)
-    }
+    } 
 }
+var mySweetRide = new Car('pontiac', 'fiero', 1988)
+
+mySweetRide.honk()
+mySweetRide.performMaintenance()
+
+
